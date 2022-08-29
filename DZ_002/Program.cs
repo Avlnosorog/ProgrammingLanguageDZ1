@@ -24,14 +24,15 @@ Console.Write("Введите второе число ");
 
  if(a>b)
  {
-    int max = a;
-    Console.Write("max = " +max);
+   Console.Write(a+ " > "+b);
  }
- else
+ if(b>a)
  {
-    int max = b;
-    Console.Write("max = " +max);
+   Console.Write(b+ " > "+a);
  }
-
+ if(a==b)
+ {
+   Console.Write(b+ " = "+a);
+ }
  
  
